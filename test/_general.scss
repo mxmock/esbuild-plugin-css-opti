@@ -1,0 +1,12 @@
+body {
+  div {
+    border-radius: 8px;
+  }
+  p {
+    transform: scale(0.9);
+  }
+  display: flex;
+  font-size: 1.6rem;
+  flex-direction: column;
+  background: indianred;
+}

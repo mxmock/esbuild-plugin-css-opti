@@ -1,0 +1,44 @@
+{
+  "name": "esbuild-plugin-css-opti",
+  "version": "0.1.0",
+  "description": "An esbuild plugin to generate a clean and optimized css file from a main scss file",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mxmock/esbuild-plugin-css-opti.git"
+  },
+  "scripts": {
+    "test": "node test/esbuild.mjs"
+  },
+  "keywords": [
+    "esbuild",
+    "plugin",
+    "css",
+    "sass",
+    "optimized",
+    "minify"
+  ],
+  "author": "Ockode",
+  "license": "MIT",
+  "homepage": "https://github.com/mxmock/esbuild-plugin-css-opti/blob/main/README.md",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "esbuild": "^0.17.3",
+    "postcss": "^8.4.21",
+    "sass": "^1.43.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "last 4 version"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
